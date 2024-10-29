@@ -2,7 +2,6 @@
 <?php
 include 'connection.php';
 
-mysql://xkofzkjzzkct05up:tafvbqjxlwugf7l3@wyqk6x041tfxg39e.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/dhvdlcoce2vbat74
 // Insert Grade and calculate total
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $regNo = $_POST['regNo'];
